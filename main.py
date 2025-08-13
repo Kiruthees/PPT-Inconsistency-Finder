@@ -8,7 +8,7 @@ from pptx import Presentation
 from PIL import Image
 import io
 
-API_KEY = 'YOUR-API-KEY'
+API_KEY = 'YOUR-GEMINI-API-KEY'
 
 try:
     genai.configure(api_key=API_KEY)
@@ -110,3 +110,4 @@ if __name__ == "__main__":
     
     file_path = sys.argv[1]
     analyze_presentation(file_path)
+
