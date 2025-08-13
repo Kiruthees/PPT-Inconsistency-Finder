@@ -26,7 +26,7 @@ pip install google-generativeai python-pptx Pillow
 ```
 ---
 
-##🏃 How to Run
+## 🏃 How to Run
 After installing the dependencies and setting up your API key, you can run the script from your terminal. Simply provide the path to your PowerPoint file as an argument.
 
 ```bash
